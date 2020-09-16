@@ -11,16 +11,3 @@ def binary_search(arr, target, start, end):
 # or iteratively
 def agnostic_binary_search(arr, target):
     # Your code here
-
-
-"""
-The three rules for a recursive function are:
-
-Must have a base case.
-Must change its state to move towards the base case.
-Must call itself.
-
-"""
-
-
-
