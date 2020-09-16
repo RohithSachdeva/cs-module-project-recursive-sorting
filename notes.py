@@ -52,4 +52,26 @@ def quicksort(arr):
 
 """
 MergeSort 
+
+Similar to quicksort
+
+[13, 27, 5, 18, 7, 3, 9, 22, 16, 56]
+
+take an unsorted array -> smaller chunks
+
+1. Break it in half over and over 
+[12 27 5 18 7] [3 9 22 16 56]
+[13 27 5][18 7][3 9 22][16 56]
+[13 27][5][18][7][3][9 22][16][56]
+then they're all in separate arrays 
+Then it compares adjacent arrays ... and sorts those 2 at a time (13 and 27 -> [13, 27]).. then 4 at a time .. then eventually 
+
+so [13 27] [5 18] get compared..  -> So these two arrays have sorted pairs ... so we can then compare the first element of each of these arrays. Once that first comparison is made.. we can compare the first(1st) to the second(2nd)  eg. 13 and 18 --> then compare 18 and 27
+
+-> [5, 13, 18, 27]
+
+Now we have a sorted 4 element
+
+2.  
+
 """
